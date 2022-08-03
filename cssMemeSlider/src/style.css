@@ -25,6 +25,10 @@ body {
     overflow: hidden
 }
 
+.wrapper input {
+	display: none;
+}
+
 .slider {
     display: flex;
     background-color: blue;
