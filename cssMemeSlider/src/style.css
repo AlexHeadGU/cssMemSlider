@@ -9,6 +9,10 @@
 	box-sizing: border-box;
 }
 
+h1 {
+	font-family: Сomic Sans MS, cursive;
+}
+
 body {
 	background-color: rgb(174, 205, 255);
 }
@@ -16,7 +20,6 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: rgb(180, 174, 174);  
     width: 60vw;
@@ -35,7 +38,7 @@ body {
     background-color: blue;
     width: 500%;
 	margin-left: 400%;
-	height: 80vh;
+	height: 75vh;
 }
 
 .slides {
@@ -70,11 +73,12 @@ body {
 
 .textSlide p {
 	font-size: 1.6em;
+	font-family: Сomic Sans MS, cursive;
 }
 
 .slides img {
     max-width: 100%;
-    max-height: 80vh;
+    max-height: 75vh;
 }
 
 .wrapper label {
@@ -129,12 +133,6 @@ body {
 }
 #slide5:checked ~ .slider{
 	margin-left: -400%;
-	/* opacity: 1;
-	z-index: 1;
-	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
-	-o-transform: scale(1);
-	transform: scale(1); */
 }
 
 #slide2:checked ~ .content .discription .textSlides {
@@ -150,7 +148,7 @@ body {
 	margin-left: -400%;
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1515px){
 
 	.slider {
 		height: 75vh;
@@ -161,17 +159,10 @@ body {
 	}
 
 	.wrapper {
-		width: 80vw;
+		width: 90vw;
 	}
 }
-
-@media (max-width: 1024px){
-	.wrapper {
-		/* width: 90vw; */
-	}
-}
-
-@media (max-width: 950px) {
+@media (max-width: 1133px) {
 	.slider {
 		max-height:  70vh;
 	}
@@ -184,8 +175,6 @@ body {
 	}
 	.slides img {
 		max-height:  70vh;
-		/* margin: 1.1rem 0;
-		padding: 0.5rem; */
 	}
 	.content {
 		flex-direction: column-reverse;
@@ -202,44 +191,30 @@ body {
 
 @media (max-width: 768px){
 	.wrapper {
-    width: 95vw;
-}
-
-h1 {
-	font-size: 1.6em;
-}
-.textSlide p {
-	font-size: 1.2em;
-}
-
-
-	.slides img {
-		/* max-width: 98%; */
-		/* max-height: 63vh; */
+    	width: 95vw;
 	}
 
+	h1 {
+		font-size: 1.6em;
+	}
+	.textSlide p {
+		font-size: 1.2em;
+	}
+
+	.slider {
+		height:  65vh;
+	}
+	.slides img {
+		max-height: 65vh;
+	}
 }
 
 @media (max-width: 320px){
-	.wrapper {
-    /* width: 95vw; */
-}
-.slider {
-	/* height:  50vh; */
-}
-
-h1 {
-	font-size: 1.4em;
-}
-.textSlide p {
-	font-size: 1em;
-}
-
-
-	.slides img {
-		/* max-width: 98%; */
-		/* max-height: 63vh; */
+	h1 {
+		font-size: 1.4em;
 	}
-
+	.textSlide p {
+		font-size: 1em;
+	}
 }
 
