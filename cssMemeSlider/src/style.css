@@ -87,7 +87,7 @@ body {
 
 .slides img {
     max-width: 100%;
-    max-height: 72vh;
+    max-height: 75vh;
 }
 
 .wrapper label {
@@ -159,14 +159,6 @@ body {
 
 @media (max-width: 1515px){
 
-	.slider {
-		height: 75vh;
-	}
-
-	.slides img {
-		max-height:  72vh;
-	}
-
 	.wrapper {
 		width: 90vw;
 	}
@@ -183,7 +175,7 @@ body {
 		font-size: 1.3em;
 	}
 	.slides img {
-		max-height:  67vh;
+		max-height:  70vh;
 	}
 	.content {
 		flex-direction: column-reverse;
@@ -214,7 +206,7 @@ body {
 		height:  65vh;
 	}
 	.slides img {
-		max-height: 62vh;
+		max-height: 65vh;
 	}
 }
 
