@@ -60,7 +60,7 @@ body {
 
 .controls {
 	display: flex;
-	gap: 1rem;
+	gap: 0.8rem;
     height: 4rem;
 	margin-top: 0.5rem;
     padding: 0 1rem;
@@ -102,9 +102,9 @@ body {
 .wrapper label {
 	cursor: pointer;
 	display: inline-block;
-	height: 20px;
+	height: 23px;
 	margin: auto;
-	width: 20px;
+	width: 23px;
 	border: 2px solid #094d74;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -154,7 +154,7 @@ body {
 	margin-left: -400%;
 }
 
-@media (max-width: 1515px){
+@media (max-width: 1611px){
 
 	.wrapper {
 		width: 90vw;
