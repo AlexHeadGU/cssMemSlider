@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-	box-shadow: 0 0 15px #094d74;
+	box-shadow: 0 0 30px #094d74;
     background-color: #cfdaec; 
     width: 60vw;
     height: 100vh;
@@ -43,7 +43,6 @@ body {
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-
 }
 
 .slides {
@@ -63,7 +62,8 @@ body {
 	display: flex;
 	gap: 1rem;
     height: 4rem;
-    padding: 0 0.5rem;
+	margin-top: 0.5rem;
+    padding: 0 1rem;
 	background-color: #cfdaec;
 }
 
@@ -72,7 +72,7 @@ body {
     height: 4rem;
 	position: relative;
 	top: -20px;
-	left: -5px;
+	left: -8px;
 }
 
 .textSlides {
@@ -86,7 +86,7 @@ body {
 
 .textSlide {
 	width: 20%;
-	padding: 0.8rem 1% 0;
+	padding: 0.5rem 1% 0;
 }
 
 .textSlide p {
@@ -104,8 +104,8 @@ body {
 	display: inline-block;
 	height: 20px;
 	margin: auto;
-	position: relative;
 	width: 20px;
+	border: 2px solid #094d74;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
@@ -114,21 +114,6 @@ body {
 	-moz-transition: background ease-in-out .5s;
 	-o-transition: background ease-in-out .5s;
 	transition: background ease-in-out .5s;
-}
-
-.wrapper label:after {
-	border: 2px solid #094d74;
-	content: " ";
-	display: block;
-	height: 20px;
-	left: -2px;
-	position: absolute;
-	top: -2px;
-	width: 20px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
 }
 
 .wrapper label:hover {
